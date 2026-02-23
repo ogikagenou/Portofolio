@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SugiyarnoPratama | Professional Stickman Animator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Google (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigasi -->
+    <nav class="navbar">
+        <div class="logo">Stick<span>Motion</span>.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#portfolio">Karya</a></li>
+            <li><a href="#services">Layanan</a></li>
+            <li><a href="#contact" class="btn-contact">Hubungi Saya</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Membuat Stickman <span class="highlight">Hidup</span>.</h1>
+            <p>Animator Profesional specializing in 2D Animation, Explainer Videos, and Storytelling.</p>
+            <div class="cta-group">
+                <a href="#portfolio" class="btn primary">Lihat Karya</a>
+                <a href="#contact" class="btn secondary">Kontak</a>
+            </div>
+        </div>
+        
+        <!-- Animasi CSS Stickman Sederhana -->
+        <div class="hero-animation">
+            <div class="stickman-figure">
+                <div class="head"></div>
+                <div class="body"></div>
+                <div class="arm left"></div>
+                <div class="arm right"></div>
+                <div class="leg left"></div>
+                <div class="leg right"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="section-title">
+            <h2>Karya Terbaru</h2>
+            <p>Kumpulan animasi stickman dan video explainer.</p>
+        </div>
+        
+        <div class="gallery-grid">
+            <!-- Ganti src dengan video asli Anda -->
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <!-- Ganti dengan embed video YouTube/Vimeo Anda -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2H3YVSabZgY?si=DPtORxuNWk6G3fJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <h3>Gojo vs Sukuna Domain Clash</h3>
+                <p>Domain Clash.</p>
+            </div>
+
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?mute=1" title="YouTube video" allowfullscreen></iframe>
+                </div>
+                <h3>Tech Explainer</h3>
+                <p>Video penjelasan produk (Whiteboard style).</p>
+            </div>
+
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?mute=1" title="YouTube video" allowfullscreen></iframe>
+                </div>
+                <h3>Music Video Stickman</h3>
+                <p>Visualizer musik sederhana.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Marquee Section -->
+<div class="marquee-container">
+    <div class="marquee-content">
+        <span>🎬 BUTUH ANIMATOR? • KLIK DI BAWAH • BELI JASA ANIMASI • Stickman Animation • 2D Motion Graphics • Explainer Video • 
+              🎬 BUTUH ANIMATOR? • KLIK DI BAWAH • BELI JASA ANIMASI • Stickman Animation • 2D Motion Graphics • Explainer Video •
+        </span>
+        <span>🎬 BUTUH ANIMATOR? • KLIK DI BAWAH • BELI JASA ANIMASI • Stickman Animation • 2D Motion Graphics • Explainer Video • 
+              🎬 BUTUH ANIMATOR? • KLIK DI BAWAH • BELI JASA ANIMASI • Stickman Animation • 2D Motion Graphics • Explainer Video •
+        </span>
+    </div>
+</div>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-title">
+            <h2>Layanan</h2>
+        </div>
+        <div class="services-container">
+            <div class="service-box">
+                <i class="fas fa-video"></i>
+                <h3>2D Animation</h3>
+                <p>Animasi stickman berkualitas tinggi untuk YouTube atau Media Sosial.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>Explainer Video</h3>
+                <p>Pembahasan produk atau jasa yang mudah dipahami dengan visual menarik.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-pencil-alt"></i>
+                <h3>Storyboarding</h3>
+                <p>Pembuatan konsep cerita dan alur gambar sebelum dianimasi.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2>Siap Bekerja Sama?</h2>
+            <p>Kirimkan ide proyek Anda dan saya akan merespon segera.</p>
+            
+            <form id="contact-form">
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Anda" required>
+                <select>
+                    <option value="">Pilih Jenis Proyek</option>
+                    <option value="commision">Commission Animation</option>
+                    <option value="explainer">Explainer Video</option>
+                    <option value="other">Lainnya</option>
+                </select>
+                <textarea rows="5" placeholder="Ceritakan proyek Anda..." required></textarea>
+                <button type="submit" class="btn primary">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p>&copy; 2023 StickMotion Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
